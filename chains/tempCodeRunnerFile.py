@@ -1,7 +1,4 @@
-print("-----Prompt from Template-----")
-# template = "Tell me a joke about {topic}."
-# prompt_template = ChatPromptTemplate.from_template(template)
+result = model.invoke(input_text)
 
-# prompt = prompt_template.invoke({"topic": "cats"})
-# result = model.invoke(prompt)
-# print(result.content)
+# Print the result
+print(result.content)
